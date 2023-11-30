@@ -1,0 +1,36 @@
+.container {
+    padding: 0;
+    color: #969c9c;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pages {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.results {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.left:hover, .right:hover {
+    font-weight: 700;
+    color: #1baba1;
+}
+
+.right {
+    padding-right: 12px;
+}

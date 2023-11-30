@@ -1,0 +1,57 @@
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .container {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 809px) {
+    .container {
+        padding: 0 15px;
+        margin-top: 15px
+    }
+}
+
+.empty {
+    flex: 0 0 40%;
+}
+
+.titleWrapper h1 {
+    margin: 0 0 15px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.4
+}
+
+@media only screen and (max-width: 809px) {
+    .titleWrapper h1 {
+        font-size: 20px
+    }
+}
+
+.titleWrapper p {
+    max-width: 70%;
+    font-size: 14px;
+    margin: 0
+}
+
+@media only screen and (max-width: 809px) {
+    .titleWrapper p {
+        max-width: 100%
+    }
+}
+
+.container p {
+    color: #969c9c
+}
+
+.container p strong {
+    color: #fff
+}

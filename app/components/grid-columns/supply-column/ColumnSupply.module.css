@@ -1,0 +1,24 @@
+.container {
+    -ms-flex: 1 0 110px;
+    flex: 1 0 110px;
+    padding-right: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -ms-flexbox;
+    display: flex;
+
+    .quantity:nth-child(2) {
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 4px;
+        color: #969c9c;
+    }
+}

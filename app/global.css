@@ -1,0 +1,14 @@
+﻿:root { /*only dark*/
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 34, 34, 34;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb))
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}

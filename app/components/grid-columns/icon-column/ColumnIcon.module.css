@@ -1,0 +1,18 @@
+.container {
+    padding-right: 10px;
+    -ms-flex: 0 0 30px;
+    flex: 0 0 30px;
+    padding-left: 10px;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    /*background-color: rgb(var(--background-rgb));*/
+}
+
+.sticky {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}

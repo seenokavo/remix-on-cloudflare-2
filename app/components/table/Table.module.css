@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    background: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.rowsWrapper {
+    width: 1100px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .container {
+        overflow: scroll;
+    }
+}

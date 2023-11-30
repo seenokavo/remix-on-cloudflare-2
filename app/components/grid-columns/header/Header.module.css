@@ -1,0 +1,12 @@
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e696f;
+    color: #fff;
+    border-right: 1px solid #6b767c;
+    font-size: 11px;
+    height: 35px;
+}

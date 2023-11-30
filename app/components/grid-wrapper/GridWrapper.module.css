@@ -1,0 +1,27 @@
+.grid-wrapper {
+
+}
+
+@media (min-width: 809px) {
+    .grid-wrapper {
+        max-width: 960px;
+        width: 90%;
+        margin: auto
+    }
+}
+
+@media (min-width: 1366px) {
+    .grid-wrapper {
+        max-width: 1140px;
+        width: 90%;
+        margin: auto
+    }
+}
+
+@media (min-width: 1640px) {
+    .grid-wrapper {
+        max-width: 1370px;
+        width: 90%;
+        margin: auto
+    }
+}

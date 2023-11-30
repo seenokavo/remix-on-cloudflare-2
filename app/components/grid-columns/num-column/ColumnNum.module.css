@@ -1,0 +1,36 @@
+.container {
+    -ms-flex: 0 0 45px;
+    flex: 0 0 45px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 30px;
+    color: #969c9c;
+}
+
+/*@media only screen and (max-width: 600px) {*/
+/*    #coins_table .title .col.rank, #coins_table .coin .col.rank {*/
+/*        -ms-flex: 0 0 30px;*/
+/*        flex: 0 0 30px*/
+/*    }*/
+/*}*/
+
+.iconContainer {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.iconContainer:hover {
+    font-weight: 700;
+    color: #de1066;
+}

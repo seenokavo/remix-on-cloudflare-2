@@ -1,0 +1,18 @@
+.container {
+    /*width: 100%;*/
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+@media only screen and (max-width: 809px) {
+    .container {
+        height: 50px
+    }
+}

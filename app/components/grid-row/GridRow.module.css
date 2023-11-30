@@ -1,0 +1,25 @@
+.row {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+@media only screen and (max-width: 809px) {
+    .row {
+        height: 50px
+    }
+}
+
+body.theme-dark {
+    .row {
+        border-color: rgba(255, 255, 255, .1)
+    }
+}

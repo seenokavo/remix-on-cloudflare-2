@@ -1,0 +1,30 @@
+.container {
+    padding-right: 10px;
+    -ms-flex: 0 0 140px;
+    flex: 0 0 140px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    .price:first-child {
+        font-size: 15px;
+        line-height: 15px
+    }
+}
+
+/*@media only screen and (max-width: 600px) {*/
+/*    .container {*/
+/*        -ms-flex: 0 0 140px;*/
+/*        flex: 0 0 140px*/
+/*    }*/
+
+/*    .container {*/
+/*        -ms-flex: 0 0 140px;*/
+/*        flex: 0 0 140px*/
+/*    }*/
+/*}*/
