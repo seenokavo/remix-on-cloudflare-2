@@ -9,8 +9,8 @@ interface Props {
 }
 
 export function Paginator({page, numOfPages, numOfResults}: Props) {
-    const leftIcon = <FontAwesomeIcon icon={faChevronCircleLeft} size={'2xs'}/>;
-    const rightIcon = <FontAwesomeIcon icon={faChevronCircleRight} size={'2xs'}/>;
+    const leftIcon = <FontAwesomeIcon icon={faChevronCircleLeft}/>;
+    const rightIcon = <FontAwesomeIcon icon={faChevronCircleRight}/>;
 
     return (
         <div className={styles.container}>

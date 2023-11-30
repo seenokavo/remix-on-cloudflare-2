@@ -1,5 +1,3 @@
-'use client';
-
 import styles from './ColumnChart.module.css';
 import {ChartData} from '~/components/grid-columns/chart-column/model';
 import {ClientChart} from '~/components/grid-columns/chart-column/ClientChart';

@@ -15,7 +15,7 @@ export function ColumnNum({index, page}: Props) {
         <div className={styles.container}>
             {num}
             <div className={styles.iconContainer}>
-                <FontAwesomeIcon icon={faCoffee} size={'2xs'}/>
+                <FontAwesomeIcon icon={faCoffee}/>
             </div>
         </div>
     );
