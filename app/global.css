@@ -21,3 +21,9 @@ a {
     text-decoration: none;
     color: unset;
 }
+
+.svg-inline--fa {
+    vertical-align: unset !important;
+    height: unset !important;
+    display: inline-block;
+}
